@@ -12,5 +12,6 @@ $result = $aparat->getVideo("https://www.aparat.com/v/w4IbJ");
 ```
 
 ## Attention
-Not all aparat videos are downloadable! This script will get download links only if they are available.
+1. Not all aparat videos are downloadable! This script will get download links only if they are available.
 You can check it with `$result['downloadable']` value.
+2. Don't change content of aparat.class.php, It is so sensitive.
