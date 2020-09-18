@@ -1,5 +1,4 @@
 <?php
-
 	class aparatDownloader
 	{
 		public function isAparatLink($link)
