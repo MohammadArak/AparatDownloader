@@ -6,12 +6,9 @@ You gives the script, URLS; and it will give you video information + video downl
 
 ## How to use?
 ```
-<?php
 include 'aparat.class.php';
 $aparat = new aparatDownloader();
 $result = $aparat->getVideo("https://www.aparat.com/v/w4IbJ");
-echo json_encode($result);
-?>
 ```
 
 ## Attention
